@@ -1,0 +1,15 @@
+# Виртуальное окружение
+.venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Файлы IDE (например, для VS Code)
+.vscode/
+
+# Файлы Jupyter Notebook
+.ipynb_checkpoints/
+
+# Системные файлы
+.DS_Store
