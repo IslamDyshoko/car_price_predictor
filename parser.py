@@ -7,7 +7,7 @@ headers = {
 }
 
 info_book = {'name': [], 'price': [], 'rating': []}
-for page in range(1, 7):  # Измените диапазон на нужное количество страниц
+for page in range(1, 2):  # Измените диапазон на нужное количество страниц
     url = f"https://books.toscrape.com/catalogue/page-{page}.html"
     sleep(3)
     response = requests.get(url, headers=headers)
